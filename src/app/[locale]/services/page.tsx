@@ -8,10 +8,10 @@ import { Globe, Users, Zap, Network, ArrowRight, CheckCircle } from "lucide-reac
 
 const icons = [Globe, Users, Zap, Network];
 const images = [
-  "/images/professional-handshake.jpg",
-  "/images/about-meeting.jpg",
-  "/images/digital-transform.jpg",
-  "/images/itops.jpg",
+  "https://res.cloudinary.com/dnoek2kh5/image/upload/udc-website/img-professional-handshake.jpg",
+  "https://res.cloudinary.com/dnoek2kh5/image/upload/udc-website/img-about-meeting.jpg",
+  "https://res.cloudinary.com/dnoek2kh5/image/upload/udc-website/img-digital-transform.jpg",
+  "https://res.cloudinary.com/dnoek2kh5/image/upload/udc-website/img-itops.jpg",
 ];
 const features = [
   ["Market analysis & entry strategy", "Regulatory compliance support", "Local partner identification", "Go-to-market planning"],
@@ -36,7 +36,7 @@ export default function ServicesPage({ params: { locale } }: { params: { locale:
       {/* ─── HERO ─── */}
       <section className="relative pt-48 pb-28 overflow-hidden">
         <video autoPlay muted loop playsInline className="absolute inset-0 w-full h-full object-cover opacity-75">
-          <source src="/videos/banner-services.mp4" type="video/mp4" />
+          <source src="https://res.cloudinary.com/dnoek2kh5/video/upload/udc-website/banner-services.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-[#050a14]/65 to-[#050a14]" />
         <div className="relative max-w-7xl mx-auto px-4 text-center">
@@ -116,7 +116,7 @@ export default function ServicesPage({ params: { locale } }: { params: { locale:
 
       {/* ─── CTA ─── */}
       <section className="py-20 relative overflow-hidden">
-        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('/images/udc-bg.jpg')" }} />
+        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('https://res.cloudinary.com/dnoek2kh5/image/upload/udc-website/img-udc-bg.jpg')" }} />
         <div className="absolute inset-0 bg-black/60" />
         <motion.div
           initial={{ opacity: 0, y: 20 }}
