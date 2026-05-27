@@ -22,7 +22,7 @@ export default function CareersPage() {
     <div className="overflow-hidden">
       <section className="relative pt-48 pb-28 min-h-[60vh] flex items-center overflow-hidden">
         <video autoPlay muted loop playsInline className="absolute inset-0 w-full h-full object-cover opacity-70">
-          <source src="/videos/hero-2.mp4" type="video/mp4" />
+          <source src="https://res.cloudinary.com/dnoek2kh5/video/upload/udc-website/hero-2.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-[#050a14]/65 to-[#050a14]" />
         <div className="relative max-w-7xl mx-auto px-4 text-center">
