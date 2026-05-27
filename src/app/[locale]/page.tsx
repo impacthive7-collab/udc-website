@@ -37,13 +37,13 @@ function SectionLink({ href, label }: { href: string; label: string }) {
 }
 
 const solutions = [
-  { icon: Shield, key: "cybersecurity", href: "cybersecurity", img: "/images/cybersecurity.jpg", tags: ["Cybersecurity", "NCA Compliant"], desc: "Secure your digital assets with NCA and PDPL-compliant protection tailored to the Saudi market." },
-  { icon: Cloud, key: "cloud", href: "cloud-computing", img: "/images/cloud.jpg", tags: ["Cloud", "Infrastructure"], desc: "Scalable cloud solutions and migration services for Saudi enterprises." },
-  { icon: Eye, key: "xdr", href: "xdr-mdr", img: "/images/xdr.jpg", tags: ["XDR", "MDR", "SOC"], desc: "24/7 threat detection and response across your entire digital environment." },
-  { icon: Cpu, key: "iot", href: "iot-ai", img: "/images/iot.jpg", tags: ["IoT", "AI"], desc: "Harness IoT and AI to drive operational efficiency and digital transformation." },
-  { icon: Network, key: "networking", href: "networking", img: "/images/networking.jpg", tags: ["SD-WAN", "Wi-Fi"], desc: "High-performance secure networking for enterprise and campus environments." },
-  { icon: Settings, key: "itops", href: "it-operations", img: "/images/itops.jpg", tags: ["IT Ops", "ITSM"], desc: "Optimize infrastructure performance and minimize downtime across your IT stack." },
-  { icon: Briefcase, key: "professional", href: "professional-services", img: "/images/professional.jpg", tags: ["Consulting", "Training"], desc: "Expert consulting, certified training, and full project implementation support." },
+  { icon: Shield, key: "cybersecurity", href: "cybersecurity", img: "https://res.cloudinary.com/dnoek2kh5/image/upload/udc-website/img-cybersecurity.png", tags: ["Cybersecurity", "NCA Compliant"], desc: "Secure your digital assets with NCA and PDPL-compliant protection tailored to the Saudi market." },
+  { icon: Cloud, key: "cloud", href: "cloud-computing", img: "https://res.cloudinary.com/dnoek2kh5/image/upload/udc-website/img-cloud.png", tags: ["Cloud", "Infrastructure"], desc: "Scalable cloud solutions and migration services for Saudi enterprises." },
+  { icon: Eye, key: "xdr", href: "xdr-mdr", img: "https://res.cloudinary.com/dnoek2kh5/image/upload/udc-website/img-xdr.png", tags: ["XDR", "MDR", "SOC"], desc: "24/7 threat detection and response across your entire digital environment." },
+  { icon: Cpu, key: "iot", href: "iot-ai", img: "https://res.cloudinary.com/dnoek2kh5/image/upload/udc-website/img-iot.png", tags: ["IoT", "AI"], desc: "Harness IoT and AI to drive operational efficiency and digital transformation." },
+  { icon: Network, key: "networking", href: "networking", img: "https://res.cloudinary.com/dnoek2kh5/image/upload/udc-website/img-networking.jpg", tags: ["SD-WAN", "Wi-Fi"], desc: "High-performance secure networking for enterprise and campus environments." },
+  { icon: Settings, key: "itops", href: "it-operations", img: "https://res.cloudinary.com/dnoek2kh5/image/upload/udc-website/img-itops.jpg", tags: ["IT Ops", "ITSM"], desc: "Optimize infrastructure performance and minimize downtime across your IT stack." },
+  { icon: Briefcase, key: "professional", href: "professional-services", img: "https://res.cloudinary.com/dnoek2kh5/image/upload/udc-website/img-professional.jpg", tags: ["Consulting", "Training"], desc: "Expert consulting, certified training, and full project implementation support." },
 ];
 
 const vendors = [
@@ -79,14 +79,14 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
       {/* ─── HERO ─── */}
       <section className="relative flex items-center justify-center overflow-hidden" style={{ minHeight: "100vh" }}>
         {/* Static hero background */}
-        <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/images/hero-bg.jpg')" }} />
+        <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('https://res.cloudinary.com/dnoek2kh5/image/upload/udc-website/img-hero-bg.jpg')" }} />
 
         {/* Hero main video */}
         <video
           autoPlay muted loop playsInline
           className="absolute inset-0 w-full h-full object-cover opacity-80"
         >
-          <source src="/videos/hero-main.mp4" type="video/mp4" />
+          <source src="https://res.cloudinary.com/dnoek2kh5/video/upload/udc-website/hero-main.mp4" type="video/mp4" />
         </video>
 
         {/* Gradient overlay */}
@@ -231,7 +231,7 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
             <div className="relative h-72 lg:h-auto min-h-[400px]">
               <video autoPlay muted loop playsInline
                 className="absolute inset-0 w-full h-full object-cover">
-                <source src="/videos/vision-section.mp4" type="video/mp4" />
+                <source src="https://res.cloudinary.com/dnoek2kh5/video/upload/udc-website/vision-section.mp4" type="video/mp4" />
               </video>
               <div className="absolute inset-0 bg-gradient-to-r from-transparent to-black/60" />
               {/* Overlay badge */}
@@ -247,7 +247,7 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
               style={{ background: "linear-gradient(135deg, #0d1f45 0%, #091530 50%, #000000 100%)" }}>
               {/* Decorative */}
               <div className="absolute top-0 right-0 w-40 h-40 opacity-5"
-                style={{ backgroundImage: "url('/images/udc-bg.jpg')", backgroundSize: "cover" }} />
+                style={{ backgroundImage: "url('https://res.cloudinary.com/dnoek2kh5/image/upload/udc-website/img-udc-bg.jpg')", backgroundSize: "cover" }} />
 
               <motion.div
                 initial={{ opacity: 0, x: 30 }}
@@ -280,7 +280,7 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
             <div className="relative p-10 lg:p-14 flex flex-col justify-center order-2 lg:order-1"
               style={{ background: "linear-gradient(135deg, #000000 0%, #091530 50%, #0d1f45 100%)" }}>
               <div className="absolute bottom-0 left-0 w-40 h-40 opacity-5"
-                style={{ backgroundImage: "url('/images/udc-bg.jpg')", backgroundSize: "cover" }} />
+                style={{ backgroundImage: "url('https://res.cloudinary.com/dnoek2kh5/image/upload/udc-website/img-udc-bg.jpg')", backgroundSize: "cover" }} />
               <motion.div
                 initial={{ opacity: 0, x: -30 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -304,7 +304,7 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
             <div className="relative h-72 lg:h-auto min-h-[400px] order-1 lg:order-2">
               <video autoPlay muted loop playsInline
                 className="absolute inset-0 w-full h-full object-cover">
-                <source src="/videos/gateway-section.mp4" type="video/mp4" />
+                <source src="https://res.cloudinary.com/dnoek2kh5/video/upload/udc-website/gateway-section.mp4" type="video/mp4" />
               </video>
               <div className="absolute inset-0 bg-gradient-to-l from-transparent to-black/60" />
               <div className="absolute top-6 right-6">
@@ -336,7 +336,7 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
               <SectionLink href={`/${locale}/about`} label={tn("about")} />
             </div>
             <div className="relative rounded-2xl overflow-hidden h-80 tech-card">
-              <Image src="/images/hero-cover.png" alt="About UDC" fill className="object-cover opacity-80" />
+              <Image src="https://res.cloudinary.com/dnoek2kh5/image/upload/udc-website/img-hero-cover.png" alt="About UDC" fill className="object-cover opacity-80" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
               <div className="absolute bottom-6 left-6 right-6">
                 <div className="bg-black/60 backdrop-blur-sm border border-cyan-500/20 rounded-xl p-4">
@@ -421,12 +421,12 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {[
-              { name: "KSAU", desc: "King Saud bin Abdulaziz University for Health Sciences", video: "/videos/vendor-1.mp4" },
-              { name: "General Presidency", desc: "General Presidency for the Promotion of Virtue and Prevention of Vice", video: "/videos/vendor-2.mp4" },
-              { name: "Jeddah Chamber", desc: "Jeddah Chamber of Commerce & Industry", video: "/videos/vendor-3.mp4" },
-              { name: "Saudi Post (SPL)", desc: "Saudi Post Corporation", video: "/videos/vendor-4.mp4" },
-              { name: "Madinah Dev. Authority", desc: "Madinah Region Development Authority", video: "/videos/vendor-5.mp4" },
-              { name: "Emirate of Tabuk", desc: "Emirate of Tabuk Province", video: "/videos/vendor-6.mp4" },
+              { name: "KSAU", desc: "King Saud bin Abdulaziz University for Health Sciences", video: "https://res.cloudinary.com/dnoek2kh5/video/upload/udc-website/vendor-1.mp4" },
+              { name: "General Presidency", desc: "General Presidency for the Promotion of Virtue and Prevention of Vice", video: "https://res.cloudinary.com/dnoek2kh5/video/upload/udc-website/vendor-2.mp4" },
+              { name: "Jeddah Chamber", desc: "Jeddah Chamber of Commerce & Industry", video: "https://res.cloudinary.com/dnoek2kh5/video/upload/udc-website/vendor-3.mp4" },
+              { name: "Saudi Post (SPL)", desc: "Saudi Post Corporation", video: "https://res.cloudinary.com/dnoek2kh5/video/upload/udc-website/vendor-4.mp4" },
+              { name: "Madinah Dev. Authority", desc: "Madinah Region Development Authority", video: "https://res.cloudinary.com/dnoek2kh5/video/upload/udc-website/vendor-5.mp4" },
+              { name: "Emirate of Tabuk", desc: "Emirate of Tabuk Province", video: "https://res.cloudinary.com/dnoek2kh5/video/upload/udc-website/vendor-6.mp4" },
             ].map((client, i) => (
               <motion.div key={i}
                 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.07 }}
@@ -460,7 +460,7 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
       {/* ─── CTA ─── */}
       <section className="py-24 relative overflow-hidden">
         <div className="absolute inset-0">
-          <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('/images/bg-circuit.png')" }} />
+          <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('https://res.cloudinary.com/dnoek2kh5/image/upload/udc-website/img-bg-circuit.png')" }} />
           <div className="absolute inset-0 bg-black/70" />
           <motion.div className="absolute w-[600px] h-[600px] rounded-full opacity-10 -top-1/2 left-1/2 -translate-x-1/2"
             style={{ background: "radial-gradient(circle, #0066ff, transparent)" }}
