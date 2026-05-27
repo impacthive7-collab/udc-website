@@ -1,0 +1,151 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "solutions": "Solutions",
+    "services": "Services",
+    "vendors": "Vendors",
+    "insights": "Insights",
+    "careers": "Careers",
+    "contact": "Contact Us"
+  },
+  "solutions_menu": {
+    "cybersecurity": "Cybersecurity",
+    "cloud": "Cloud Computing",
+    "xdr": "XDR & MDR",
+    "iot": "IoT & AI Solutions",
+    "networking": "Networking",
+    "itops": "IT Operations",
+    "professional": "Professional Services"
+  },
+  "hero": {
+    "badge": "Saudi Arabia's Premier IT Distributor",
+    "headline1": "Built on Trust.",
+    "headline2": "Powered by Partnership.",
+    "sub": "Connecting world-class technology with Saudi enterprises. Cybersecurity, Cloud Computing, and beyond.",
+    "cta1": "Explore Solutions",
+    "cta2": "Contact Us"
+  },
+  "stats": {
+    "vendors": "Global Vendors",
+    "clients": "Gov. Clients",
+    "digital": "#1 Digital Readiness",
+    "founded": "Est. Year",
+    "ksa": "KSA Ranked #1 Worldwide"
+  },
+  "solutions_section": {
+    "title": "Our Technology Focus Areas",
+    "sub": "Delivering specialized IT solutions across key domains"
+  },
+  "vendors_section": {
+    "title": "Our Vendor Ecosystem",
+    "sub": "Connecting world-class technology providers with real market opportunities"
+  },
+  "why": {
+    "title": "Why Choose UDC?",
+    "sub": "Your trusted gateway to Saudi Arabia's digital future",
+    "r1_title": "Deep Local Expertise",
+    "r1_desc": "15+ years understanding the Saudi market, regulations, and enterprise needs.",
+    "r2_title": "Global Vendor Network",
+    "r2_desc": "Exclusive partnerships with 9+ world-class technology vendors.",
+    "r3_title": "End-to-End Support",
+    "r3_desc": "From market entry to channel development, we handle it all.",
+    "r4_title": "Government Trust",
+    "r4_desc": "Serving 6+ major Saudi government entities with proven reliability."
+  },
+  "cta_banner": {
+    "title": "Ready to Transform Your Digital Future?",
+    "sub": "Partner with Saudi Arabia's most trusted IT distributor.",
+    "btn": "Start a Conversation"
+  },
+  "about": {
+    "hero_title": "About UDC",
+    "hero_sub": "Built on Trust. Powered by Partnership.",
+    "story_title": "Our Story",
+    "story_desc": "Established in 2025, Ultimate Distribution Company was born from a vision to bridge the gap in Saudi Arabia's IT distribution market. We rely on deep understanding of the Saudi market to act as the strongest link between global brands and local enterprises.",
+    "mission_title": "Our Mission",
+    "mission_desc": "To empower Saudi Arabia's digital future by connecting international innovators with local businesses, helping build solid IT infrastructure and innovative solutions.",
+    "vision_title": "Our Vision",
+    "vision_desc": "We envision a future where every Saudi enterprise operates on a secure, intelligent, and sustainable digital platform.",
+    "values_title": "Our Core Values",
+    "market_title": "Our Market Position",
+    "market_desc": "Saudi Arabia ranked #1 worldwide in digital readiness in 2025 (ITU). UDC exists at the heart of this transformation.",
+    "val1": "Reliability",
+    "val1_desc": "We fulfill our promises to partners and customers in every process.",
+    "val2": "Transparency",
+    "val2_desc": "Operating with total clarity at every stage of the supply chain.",
+    "val3": "Innovation",
+    "val3_desc": "Adopting the latest technologies to optimize distribution.",
+    "val4": "Excellence",
+    "val4_desc": "Constantly striving to exceed expectations in service delivery."
+  },
+  "services": {
+    "hero_title": "Our Services",
+    "hero_sub": "A value-added model that supports the entire lifecycle of a technology partnership",
+    "what_we_do": "What We Do",
+    "s1_title": "Market Entry Services",
+    "s1_desc": "We streamline the path for global vendors to enter the Saudi market with localized strategies and deep channel knowledge.",
+    "s2_title": "Partner Recruitment",
+    "s2_desc": "We identify, recruit, and enable top system integrators to deploy complex technology solutions across the Kingdom.",
+    "s3_title": "Digital Transformation",
+    "s3_desc": "End-to-end digital transformation consulting to help Saudi enterprises build the infrastructure of tomorrow.",
+    "s4_title": "Channel Development",
+    "s4_desc": "Building and scaling distribution channels across Saudi Arabia with local expertise and regional connections."
+  },
+  "vendors_page": {
+    "hero_title": "Our Vendor Ecosystem",
+    "hero_sub": "World-class technology partners delivering innovation to Saudi Arabia"
+  },
+  "contact": {
+    "hero_title": "Get In Touch",
+    "hero_sub": "We'd love to hear from you",
+    "name": "Full Name",
+    "email": "Email Address",
+    "company": "Company Name",
+    "message": "Message",
+    "send": "Send Message",
+    "info_title": "Contact Information",
+    "address": "Kingdom of Saudi Arabia"
+  },
+  "home_about": {
+    "badge": "About UDC",
+    "title": "Saudi Arabia's Premier IT Distributor",
+    "desc": "Established in 2025, Ultimate Distribution Company bridges the gap in Saudi Arabia's IT distribution market — connecting world-class global vendors with local enterprises.",
+    "check1": "Deep local market expertise",
+    "check2": "9+ global technology vendors",
+    "check3": "6+ major government clients",
+    "check4": "Vision 2030 aligned",
+    "stat": "Digital Readiness #1 — Saudi Arabia 2025 (ITU)"
+  },
+  "home_services": {
+    "badge": "Our Services",
+    "title": "How We Add Value",
+    "sub": "A complete partnership model from market entry to channel development",
+    "s1_title": "Market Entry",
+    "s1_desc": "Streamlined path for global vendors into Saudi Arabia",
+    "s2_title": "Partner Recruitment",
+    "s2_desc": "Identify and enable top system integrators",
+    "s3_title": "Digital Transformation",
+    "s3_desc": "End-to-end consulting for Saudi enterprises",
+    "s4_title": "Channel Development",
+    "s4_desc": "Build and scale distribution across the Kingdom"
+  },
+  "home_vendors": {
+    "badge": "Our Ecosystem",
+    "title": "Our Vendor Ecosystem",
+    "sub": "Connecting world-class technology providers with real market opportunities"
+  },
+  "home_gov": {
+    "badge": "Trusted By",
+    "title": "Government Partners"
+  },
+  "footer": {
+    "tagline": "Built on Trust. Powered by Partnership.",
+    "company": "Company",
+    "solutions_col": "Solutions",
+    "connect": "Connect",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}
