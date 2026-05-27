@@ -42,7 +42,7 @@ export default function SolutionPage({
       {/* Hero */}
       <section className="relative pt-48 pb-28 min-h-[60vh] flex items-center overflow-hidden">
         <video autoPlay muted loop playsInline className="absolute inset-0 w-full h-full object-cover opacity-75">
-          <source src="/videos/banner-solutions.webm" type="video/webm" />
+          <source src="https://res.cloudinary.com/dnoek2kh5/video/upload/udc-website/banner-solutions.webm" type="video/webm" />
         </video>
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-[#050a14]/65 to-[#050a14]" />
         <div className="relative max-w-7xl mx-auto px-4 text-center">
@@ -61,7 +61,7 @@ export default function SolutionPage({
       {/* Features */}
       <section className="py-24 relative overflow-hidden">
         {/* Circuit board background */}
-        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('/images/bg-circuit.png')" }} />
+        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('https://res.cloudinary.com/dnoek2kh5/image/upload/udc-website/img-bg-circuit.png')" }} />
         <div className="absolute inset-0 bg-black/60" />
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -121,7 +121,7 @@ export default function SolutionPage({
 
       {/* CTA */}
       <section className="py-24 relative overflow-hidden text-center">
-        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('/images/network-bg2.jpg')" }} />
+        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('https://res.cloudinary.com/dnoek2kh5/image/upload/udc-website/img-network-bg2.jpg')" }} />
         <div className="absolute inset-0 bg-black/60" />
         <motion.div
           initial={{ opacity: 0, y: 20 }}
