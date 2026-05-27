@@ -12,7 +12,7 @@ const vendors = [
     tag: "Cloud Computing & Network Security",
     desc: "A leading global vendor of IT infrastructure solutions, specializing in Cloud Computing & Network Security.",
     logo: "/logos/sangfor.png",
-    video: "/videos/vendor-1.mp4",
+    video: "https://res.cloudinary.com/dnoek2kh5/video/upload/udc-website/vendor-1.mp4",
     website: "https://www.sangfor.com",
   },
   {
@@ -20,7 +20,7 @@ const vendors = [
     tag: "Customer-Centric Innovation",
     desc: "Creating tailored solutions that meet the unique needs of every customer, turning complex challenges into efficient solutions.",
     logo: "/logos/lensec.png",
-    video: "/videos/vendor-2.mp4",
+    video: "https://res.cloudinary.com/dnoek2kh5/video/upload/udc-website/vendor-2.mp4",
     website: "https://www.lensec.com",
   },
   {
@@ -28,7 +28,7 @@ const vendors = [
     tag: "Supply Chain Security",
     desc: "Specializes in supply chain risk management and advanced IT engineering services.",
     logo: null,
-    video: "/videos/vendor-3.mp4",
+    video: "https://res.cloudinary.com/dnoek2kh5/video/upload/udc-website/vendor-3.mp4",
     website: "https://www.cyphercor.com/",
   },
   {
@@ -36,7 +36,7 @@ const vendors = [
     tag: "First Distributor in KSA & Gulf",
     desc: "UDC is the first authorized distributor of C4 Integrated Security Systems in Saudi Arabia and the Gulf region.",
     logo: "/logos/c4.png",
-    video: "/videos/vendor-4.mp4",
+    video: "https://res.cloudinary.com/dnoek2kh5/video/upload/udc-website/vendor-4.mp4",
     website: "http://www.c4portal.com",
   },
   {
@@ -44,7 +44,7 @@ const vendors = [
     tag: "Human Threat Intelligence",
     desc: "Protection is our profession. Leading provider of security awareness training — empowering organizations to build a human firewall.",
     logo: "/logos/zinad.png",
-    video: "/videos/vendor-5.mp4",
+    video: "https://res.cloudinary.com/dnoek2kh5/video/upload/udc-website/vendor-5.mp4",
     website: "https://www.zinad.net",
   },
   {
@@ -52,7 +52,7 @@ const vendors = [
     tag: "Enterprise Solutions",
     desc: "Delivering enterprise solutions that streamline business operations and drive efficiency across digital innovation and telecom.",
     logo: "/logos/techarm.png",
-    video: "/videos/vendor-6.mp4",
+    video: "https://res.cloudinary.com/dnoek2kh5/video/upload/udc-website/vendor-6.mp4",
     website: "http://tech-arm.com/",
   },
   {
@@ -60,7 +60,7 @@ const vendors = [
     tag: "Advanced Cybersecurity",
     desc: "An advanced solutions and cybersecurity provider that enhances and protects organizations from threats while meeting compliance.",
     logo: "/logos/securemag.png",
-    video: "/videos/vendor-7.mp4",
+    video: "https://res.cloudinary.com/dnoek2kh5/video/upload/udc-website/vendor-7.mp4",
     website: "https://www.securemagnusgroup.com",
   },
   {
@@ -68,7 +68,7 @@ const vendors = [
     tag: "Security Solutions",
     desc: "Advanced cybersecurity solutions provider protecting your organization from evolving threats and meeting compliance requirements.",
     logo: "/logos/securegate.png",
-    video: "/videos/vendor-10.mp4",
+    video: "https://res.cloudinary.com/dnoek2kh5/video/upload/udc-website/vendor-10.mp4",
     website: "https://www.securegate.it/en/",
   },
   {
@@ -76,7 +76,7 @@ const vendors = [
     tag: "Data Protection & Backup",
     desc: "Leading provider of enterprise data protection. Specializing in backup, instant recovery, and migration across all platforms.",
     logo: "/logos/vinchin.png",
-    video: "/videos/vendor-8.mp4",
+    video: "https://res.cloudinary.com/dnoek2kh5/video/upload/udc-website/vendor-8.mp4",
     website: "https://www.vinchin.com",
   },
   {
@@ -84,7 +84,7 @@ const vendors = [
     tag: "Intelligent Networking",
     desc: "A Sangfor brand — the best all-in-one Wi-Fi and V-Sec switch provider, with X-LINK Cloud for SMB networks.",
     logo: "/logos/sundray.png",
-    video: "/videos/vendor-9.mp4",
+    video: "https://res.cloudinary.com/dnoek2kh5/video/upload/udc-website/vendor-9.mp4",
     website: "https://www.sundray.com.cn",
   },
 ];
@@ -170,7 +170,7 @@ export default function VendorsPage({ params: { locale } }: { params: { locale: 
           autoPlay muted loop playsInline
           className="absolute inset-0 w-full h-full object-cover opacity-80"
         >
-          <source src="/videos/banner-vendors.mp4" type="video/mp4" />
+          <source src="https://res.cloudinary.com/dnoek2kh5/video/upload/udc-website/banner-vendors.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-[#050a14]/50 to-[#050a14]" />
         <div className="relative max-w-7xl mx-auto px-4 text-center">
