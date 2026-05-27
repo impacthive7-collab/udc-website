@@ -12,7 +12,7 @@ const posts = [
     tag: "Market Insights",
     date: "May 2025",
     readTime: "5 min read",
-    video: "/videos/hero-main.mp4",
+    video: "https://res.cloudinary.com/dnoek2kh5/video/upload/udc-website/hero-main.mp4",
     img: null,
   },
   {
@@ -21,7 +21,7 @@ const posts = [
     tag: "Cybersecurity",
     date: "April 2025",
     readTime: "7 min read",
-    video: "/videos/vendor-6.mp4",
+    video: "https://res.cloudinary.com/dnoek2kh5/video/upload/udc-website/vendor-6.mp4",
     img: null,
   },
   {
@@ -31,7 +31,7 @@ const posts = [
     date: "March 2025",
     readTime: "6 min read",
     video: null,
-    img: "/images/cloud.jpg",
+    img: "https://res.cloudinary.com/dnoek2kh5/image/upload/udc-website/img-cloud.png",
   },
 ];
 
@@ -40,7 +40,7 @@ export default function InsightsPage() {
     <div className="overflow-hidden">
       <section className="relative pt-48 pb-28 min-h-[60vh] flex items-center overflow-hidden">
         <video autoPlay muted loop playsInline className="absolute inset-0 w-full h-full object-cover opacity-75">
-          <source src="/videos/banner-insights.mp4" type="video/mp4" />
+          <source src="https://res.cloudinary.com/dnoek2kh5/video/upload/udc-website/banner-insights.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-[#050a14]/65 to-[#050a14]" />
         <div className="relative max-w-7xl mx-auto px-4 text-center">
