@@ -1,24 +1,12 @@
-"use client";
-
-import Link from "next/link";
-import { useParams } from "next/navigation";
-
 export default function NotFound() {
-  const params = useParams();
-  const locale = (params?.locale as string) || "en";
-  
   return (
-    <div className="min-h-screen bg-dark flex items-center justify-center">
-      <div className="text-center">
-        <div className="text-9xl font-black text-primary/30 mb-4">404</div>
-        <h1 className="text-3xl font-black text-white mb-4">Page Not Found</h1>
-        <p className="text-white/50 mb-8">The page you're looking for doesn't exist.</p>
-        <Link
-          href={`/${locale}`}
-          className="bg-primary hover:bg-accent transition-colors text-white font-semibold px-8 py-4 rounded-xl"
-        >
+    <div style={{ background: "#050a14", color: "white", minHeight: "100vh", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "Inter, sans-serif" }}>
+      <div style={{ textAlign: "center" }}>
+        <div style={{ fontSize: "8rem", fontWeight: 900, color: "#1a4591", lineHeight: 1 }}>404</div>
+        <p style={{ color: "rgba(255,255,255,0.5)", marginTop: "1rem" }}>Page not found</p>
+        <a href="/en" style={{ display: "inline-block", marginTop: "2rem", background: "#1a4591", color: "white", padding: "0.875rem 2rem", borderRadius: "0.75rem", textDecoration: "none", fontWeight: 600 }}>
           Go Home
-        </Link>
+        </a>
       </div>
     </div>
   );
