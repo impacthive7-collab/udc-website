@@ -23,7 +23,7 @@ body { background: #050a14; color: white; overflow-x: hidden; }
 /* ─── TECH BACKGROUND — UDC Brand BG ─── */
 .tech-bg {
   position: relative;
-  background-image: url('/images/udc-bg.jpg');
+  background-image: url('https://res.cloudinary.com/dnoek2kh5/image/upload/udc-website/img-udc-bg.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
