@@ -19,7 +19,7 @@ export default function AboutPage() {
       {/* Hero */}
       <section className="relative pt-48 pb-28 min-h-[60vh] flex items-center overflow-hidden">
         <video autoPlay muted loop playsInline className="absolute inset-0 w-full h-full object-cover opacity-75">
-          <source src="/videos/banner-about.mp4" type="video/mp4" />
+          <source src="https://res.cloudinary.com/dnoek2kh5/video/upload/udc-website/banner-about.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-[#050a14]/60 to-[#050a14]" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -93,7 +93,7 @@ export default function AboutPage() {
                 className="rounded-2xl p-10 border border-cyan-500/20 relative overflow-hidden"
                 style={{ background: "linear-gradient(135deg, #0d1f45 0%, #1a4591 50%, #0a3060 100%)" }}
               >
-                <div className="absolute inset-0 bg-cover bg-center opacity-10" style={{ backgroundImage: "url('/images/udc-bg.jpg')" }} />
+                <div className="absolute inset-0 bg-cover bg-center opacity-10" style={{ backgroundImage: "url('https://res.cloudinary.com/dnoek2kh5/image/upload/udc-website/img-udc-bg.jpg')" }} />
                 <div className="relative z-10">
                   <div className="w-14 h-14 rounded-xl bg-white/10 flex items-center justify-center mb-6">
                     <Icon className="w-7 h-7 text-cyan-400" />
