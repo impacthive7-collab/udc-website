@@ -53,7 +53,7 @@ export default function Footer({ locale }: { locale: string }) {
 
   return (
     <footer className="relative border-t border-cyan-500/10 pt-16 pb-8 overflow-hidden">
-      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/images/udc-bg.jpg')" }} />
+      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('https://res.cloudinary.com/dnoek2kh5/image/upload/udc-website/img-udc-bg.jpg')" }} />
       <div className="absolute inset-0 bg-black/75" />
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
