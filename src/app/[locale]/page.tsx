@@ -86,7 +86,7 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
           autoPlay muted loop playsInline
           className="absolute inset-0 w-full h-full object-cover opacity-80"
         >
-          <source src="https://res.cloudinary.com/dnoek2kh5/video/upload/udc-website/hero-main.mp4" type="video/mp4" />
+          <source src="https://res.cloudinary.com/dnoek2kh5/video/upload/udc-website/aerial-drone.mp4" type="video/mp4" />
         </video>
 
         {/* Gradient overlay */}
