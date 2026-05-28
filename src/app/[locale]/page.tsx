@@ -267,6 +267,50 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
         </div>
       </section>
 
+      {/* ─── GROWTH PARTNER SECTION ─── */}
+      <section className="py-24 bg-black overflow-hidden">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            {/* Image LEFT */}
+            <motion.div
+              initial={{ opacity: 0, x: -40 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.7 }}
+              className="relative rounded-2xl overflow-hidden border border-cyan-500/20"
+            >
+              <Image
+                src="https://res.cloudinary.com/dnoek2kh5/image/upload/v1779936959/udc-website/img-growth-partner.webp"
+                alt="Strategic Growth Partner"
+                width={700}
+                height={500}
+                className="w-full h-auto object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
+            </motion.div>
+            {/* Text RIGHT */}
+            <motion.div
+              initial={{ opacity: 0, x: 40 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.7 }}
+            >
+              <div className="w-12 h-1 bg-cyan-400 rounded-full mb-8" />
+              <h2 className="text-4xl sm:text-5xl font-black text-white mb-6 leading-tight">
+                More than distribution.{" "}
+                <span className="shimmer-text">We help technology partners grow in Saudi Arabia.</span>
+              </h2>
+              <p className="text-white/60 text-lg leading-relaxed mb-5">
+                At UDC, we work closely with global vendors to build stronger market presence, create new business opportunities, and support long-term growth across the Kingdom.
+              </p>
+              <p className="text-white/50 leading-relaxed">
+                Through local expertise, strategic partnerships, and enterprise-focused execution, we connect technology with the right market, the right partners, and the right opportunities.
+              </p>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
       {/* ─── VISION SECTION ─── */}
       <section className="py-24 bg-black overflow-hidden">
         <div className="max-w-7xl mx-auto px-4">
