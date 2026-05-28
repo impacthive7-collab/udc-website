@@ -19,7 +19,7 @@ export default function AboutPage() {
       {/* Hero */}
       <section className="relative pt-48 pb-28 min-h-[60vh] flex items-center overflow-hidden">
         <video autoPlay muted loop playsInline className="absolute inset-0 w-full h-full object-cover opacity-75">
-          <source src="https://res.cloudinary.com/dnoek2kh5/video/upload/udc-website/banner-about.mp4" type="video/mp4" />
+          <source src="https://res.cloudinary.com/dnoek2kh5/video/upload/udc-website/aerial-drone.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-[#050a14]/60 to-[#050a14]" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
