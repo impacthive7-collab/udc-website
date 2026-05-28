@@ -223,6 +223,50 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
         </div>
       </section>
 
+      {/* ─── PARTNERSHIPS SECTION ─── */}
+      <section className="py-24 bg-black overflow-hidden">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            {/* Text */}
+            <motion.div
+              initial={{ opacity: 0, x: -40 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.7 }}
+            >
+              <div className="w-12 h-1 bg-cyan-400 rounded-full mb-8" />
+              <h2 className="text-4xl sm:text-5xl font-black text-white mb-6 leading-tight">
+                Empowering Saudi Enterprises Through{" "}
+                <span className="shimmer-text">Global Partnerships</span>
+              </h2>
+              <p className="text-white/60 text-lg leading-relaxed mb-6">
+                UDC works closely with world-class technology vendors and industry leaders to bring cutting-edge innovation, secure infrastructure, and future-ready solutions to organizations across Saudi Arabia.
+              </p>
+              <p className="text-white/50 leading-relaxed">
+                Our growing ecosystem of strategic partnerships enables us to deliver scalable technologies aligned with the evolving needs of the regional enterprise market.
+              </p>
+            </motion.div>
+            {/* Image */}
+            <motion.div
+              initial={{ opacity: 0, x: 40 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.7 }}
+              className="relative rounded-2xl overflow-hidden border border-cyan-500/20"
+            >
+              <Image
+                src="https://res.cloudinary.com/dnoek2kh5/image/upload/v1779936480/udc-website/img-partnerships.webp"
+                alt="Global Partnerships"
+                width={700}
+                height={500}
+                className="w-full h-auto object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
       {/* ─── VISION SECTION ─── */}
       <section className="py-24 bg-black overflow-hidden">
         <div className="max-w-7xl mx-auto px-4">
